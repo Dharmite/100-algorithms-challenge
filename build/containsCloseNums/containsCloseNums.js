@@ -1,0 +1,9 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.containsCloseNums = void 0;
+function containsCloseNums(nums, k) {
+}
+exports.containsCloseNums = containsCloseNums;
+// console.log(containsCloseNums([0, 1, 2, 3, 5, 2], 3));
+// console.log(containsCloseNums([0, 1, 2, 3, 5, 2], 2));
+//# sourceMappingURL=containsCloseNums.js.map
