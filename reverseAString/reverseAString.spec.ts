@@ -1,6 +1,6 @@
 import { reverseAString } from './reverseAString';
 
-xdescribe(reverseAString.name, () => {
+describe(reverseAString.name, () => {
     it('Test 1', () => {
         // arrange
         const inputString = 'hello';
@@ -8,7 +8,7 @@ xdescribe(reverseAString.name, () => {
         // act
         const response = reverseAString(inputString);
 
-        // assert 
+        // assert
         expect(response).toBe('olleh');
     });
 
@@ -19,7 +19,7 @@ xdescribe(reverseAString.name, () => {
         // act
         const response = reverseAString(inputString);
 
-        // assert 
-        expect(response).toBe('Howdy');
+        // assert
+        expect(response).toBe('ydwoH');
     });
 });
